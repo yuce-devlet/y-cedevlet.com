@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anasayfa | Yüce Devlet</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="assets/devonlogo.jpg" type="image/x-icon">
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<body>
+    <!-- Loader -->
+  <div id="loader">
+    <div class="loader-container">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+    </div>
+    <p class="loading-text">Yükleniyor...</p>
+  </div>
+
+  <!-- Arka plan bulanıklığı -->
+  <div id="overlay"></div>
+
+  <!-- Mobil Menü -->
+  <div id="mobileMenu" class="mobile-menu">
+    <div class="mobile-menu-header">
+      <div class="mobile-logo">
+        <h2 style="font-family: Poppins, sans-serif; color: black;">YÜCE DEVLET GRUP</h2>
+        <p class="alt-logo">İnşaat TİC LTD ŞTİ.</p>
+      </div>
+      <div class="close-btn" id="closeMenu">&times;</div>
+    </div>
+    <br>
+    <hr />
+    <a href="index.html">ANASAYFA</a>
+      <a href="hakkimizda.html">HAKKIMIZDA</a>
+      <a href="hizmetler.html">HİZMETLER</a>
+      <a href="projeler.html">PROJELER</a>
+      <a href="iletisim.html">İLETİŞİM</a>
+
+    <div class="infoBtn">
+   <a href="iletisim.html"><button>İletişime Geç</button></a> 
+    </div>
+
+    <div class="navbarIcons">
+      <a href="https://instagram.com" class="icon"><i class="fab fa-instagram"></i></a>
+<a href="https://facebook.com" class="icon"><i class="fab fa-facebook-f"></i></a>
+<a href="https://linkedin.com" class="icon"><i class="fab fa-linkedin-in"></i></a>
+
+
+    </div>
+  </div>
+
+  <!-- Üst Bilgilendirme -->
+<div class="ust-bilgilendirme" style="background-color: #041F42; color: white; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; font-family: Arial, sans-serif; font-size: 14px;">
+  <div style="display: flex; gap: 10px; align-items: center; margin-left:200px;">
+<i class="fas fa-map-marker-alt" style="color: #f15a24; margin-right: 5px;"></i> Ankara Kahramankazan<br>
+<i class="fas fa-phone" style="color: #f15a24; margin-right: 5px;"></i> +90 (535) 055 55 43<br>
+<i class="fas fa-envelope" style="color: #f15a24; margin-right: 5px;"></i> <a href="mailto:info@devoninsaat.com.tr" style="color: white; text-decoration: none;">yucedevlet@outlook.com</a>
+
+  </div>
+  <div style="display: flex; gap: 10px; margin-right: 200px;">
+    <a href="https://www.facebook.com/yucedevletinsaat" style="color: white;"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/yucedevletinsaat" style="color: white;"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/yucedevletinsaat" style="color: white;"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</div>
+
+  <hr style="background-color: #BE995F; height: 1px; box-shadow: none; border: none;">
+ 
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>YÜCE DEVLET GRUP </h1>
+      <p class="alt-logo">İnşaat TİC LTD ŞTİ.</p>
+    </div>
+
+    <div class="nav-links desktop-only">
+      <a href="index.html">Anasayfa</a>
+      <a href="hakkimizda.html">Hakkımızda</a>
+      <a href="hizmetler.html">Hizmetler</a>
+      <a href="projeler.html">Projeler</a>
+      <a href="iletisim.html">İletişim</a>
+    </div>
+
+    <div class="menu-icon" id="menuIcon">
+      <span style="font-size: 28px; cursor: pointer;">&#9776;</span>
+    </div>
+  </nav>
+
+
+<!-- HERO SLIDER BAŞLANGIÇ -->
+<div class="hero-slider">
+  <div class="slide active" style="background-image: url('./assets/slide1.jpg');">
+    <div class="content">
+      <h2 style="background: linear-gradient(90deg, #a5a5a5, #55abec);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;">YÜCE DEVLET GRUP</h2>
+      <p style="color: white;">Yüce Devlet Grup olarak, estetik ve mühendisliği buluşturuyor; yüksek kaliteli malzemeler ve son teknoloji inşaat teknikleriyle güvenli yaşam alanları inşa ediyoruz.
+</p>
+      <a href="hakkimizda.html" class="btn" style="background-color: #f77b1e;">Kentsel Dönüşüm</a>
+      <a href="iletisim.html" class="btn">Bize Ulaşın</a>
+    </div>
+  </div>
+  <div class="slide active" style="background-image: url('./assets/insaat.png');">
+    <div class="content">
+      <h2 style="color: white;">YÜCE DEVLET GRUP</h2>
+      <p style="color: white;">Deprem yönetmeliklerine uygun, dayanıklı ve modern yapılarla şehirlerimizi geleceğe hazırlıyoruz. Her projemizde çevreye duyarlı, konforlu ve estetik çözümler sunuyoruz.
+</p>
+      <a href="hakkimizda.html" class="btn" style="background-color: #f77b1e;">Kentsel Dönüşüm</a>
+      <a href="iletisim.html" class="btn">Bize Ulaşın</a>
+    </div>
+  </div>
+  <div class="slide active" style="background-image: url('./assets/slide2.png');">
+    <div class="content">
+      <h2 style="color: white;">YÜCE DEVLET GRUP</h2>
+      <p style="color: white;">Yol, su, enerji ve kanalizasyon projelerinden konut ve ticari yapılara kadar geniş bir alanda, uzman ekibimizle kalıcı çözümler üretiyoruz.
+</p>
+      <a href="hakkimizda.html" class="btn" style="background-color: #f77b1e;">Kentsel Dönüşüm</a>
+      <a href="iletisim.html" class="btn">Bize Ulaşın</a>
+    </div>
+  </div>
+</div>
+<!-- HERO SLIDER BİTİŞ -->
+
+
+
+
+<!-- İLKELERİMİZ BÖLÜMÜ -->
+<section class="principles">
+  <h2>
+    <i class="fas fa-compass title-icon"></i> İLKELERİMİZ</h2>
+
+  <div class="principles-container">
+    <div class="principle-box">
+      <i class="fas fa-chart-line icon"></i>
+      <h3>İSTİKRAR</h3>
+      <p>Kalite standartlarımızdan ödün vermeden kararlı bir şekilde sektörde yer almak bizim başlıca güven anlayışımızdır.</p>
+    </div>
+
+    <div class="principle-box">
+      <i class="fas fa-bolt icon"></i>
+      <h3>HIZ</h3>
+      <p>Müşterilerimizin beklentilerine hızlı bir şekilde çözüm üretmek, bizim ana prensiplerimizden birisidir.</p>
+    </div>
+
+    <div class="principle-box">
+      <i class="fas fa-umbrella icon"></i>
+      <h3>UZMANLIK</h3>
+      <p>Yetkinlik – bizim güçlü noktamız. Yüksek düzeyde farkındalık, tüm alanlarda uzman olmamızı sağlar.</p>
+    </div>
+
+    <div class="principle-box">
+      <i class="fas fa-home icon"></i>
+      <h3>GÜVENİRLİK</h3>
+      <p>Günümüzde güvenilir iş ilişkileri ön plana çıkmaktadır. Şirketimiz bu konuda bir modeldir.</p>
+    </div>
+
+    <div class="principle-box">
+      <i class="fas fa-briefcase icon"></i>
+      <h3>ÇOK YÖNLÜLÜK</h3>
+      <p>Şirketimizin olaylara çok yönlü olarak bakması, her proje için profesyonel bir yaklaşım garanti eder.</p>
+    </div>
+
+    <div class="principle-box">
+      <i class="fas fa-vial icon"></i>
+      <h3>DOĞRULUK</h3>
+      <p>Doğruluk – çözümün ve kalitenin anahtarıdır.</p>
+    </div>
+  </div>
+</section>
+
+
+<div class="hizmetlerPart">
+  <div class="hizmetler-title">
+    <div class="sol-cizgi"></div>
+    <div>
+      <h1>HİZMETLERİMİZ</h1>
+    </div>
+  </div>
+
+  <div class="parts">
+    <div class="part-item">
+   <button>İNŞAAT YÖNETİMİ</button>
+    </div>
+
+    <div class="dikey-cizgi"></div>
+
+    <div class="part-item">
+  <button>RESTORASYON</button>
+    </div>
+
+    <div class="dikey-cizgi"></div>
+
+    <div class="part-item">
+      <button>PROJE GELİŞTİRME</button>
+    </div>
+
+    <div class="dikey-cizgi"></div>
+
+    <div class="part-item">
+      <button>PROJE YÖNETİMİ</button>
+    </div>
+  </div>
+
+  <div class="morebtn">
+    <a href="hizmetler.html">
+    <button>
+  Daha Fazla
+  </button>
+   </a>
+</div>
+</div>
+
+  
+<!-- HİZMET TANITIM BLOKLARI BAŞLANGIÇ -->
+<section class="feature-section">
+
+  <!-- 1. BLOK -->
+  <div class="feature-row">
+   <div class="feature-img">
+  <img src="./assets/slide1.png" alt="Modern Yapılar" />
+</div>
+
+    <div class="feature-text">
+      <h2>Modern Yapılar</h2>
+      <p>Şehrin siluetine değer katan modern projelerimizde, estetik ve mühendisliği buluşturuyoruz. Yenilikçi mimari tasarımlar, yüksek kaliteli malzemeler ve son teknoloji inşaat teknikleriyle her detayı titizlikle planlıyor, güvenli ve konforlu yaşam alanları inşa ediyoruz.</p>
+    </div>
+  </div>
+
+  <!-- 2. BLOK -->
+  <div class="feature-row reverse">
+    <div class="feature-img">
+      <img src="./assets/slide2.png" alt="Hizmet 2">
+    </div>
+    <div class="feature-text">
+      <h2>Kentsel Dönüşüm</h2>
+      <p>Deprem yönetmeliklerine uygun, güvenli ve dayanıklı yapılarla şehirlerimizi geleceğe hazırlıyoruz. Kentsel dönüşüm projelerimizde, modern yaşam standartlarını yakalayan, çevreye duyarlı ve estetik çözümler sunuyor; mevcut dokuyu koruyarak şehirlere yeni bir soluk getiriyoruz.</p>
+    </div>
+  </div>
+
+  <!-- 3. BLOK -->
+  <div class="feature-row">
+    <div class="feature-img">
+      <img src="./assets/slide2.png" alt="Hizmet 3">
+    </div>
+    <div class="feature-text">
+      <h2>Alt Yapı Hizmetleri</h2>
+      <p>Büyük ölçekli projelerden yerel çözümlere kadar, altyapı hizmetlerinde uzman ekibimizle kalıcı ve sağlam sistemler inşa ediyoruz. Yol, kanalizasyon, su ve enerji hatları gibi kritik altyapı çalışmalarında kaliteli malzeme ve mühendislik güvencesiyle projelerinizi sorunsuz tamamlıyoruz.</p>
+    </div>
+  </div>
+<section class="stats-section">
+  <div class="stats-inner">
+    <div class="stat-box" data-count="60">
+      <i class="fas fa-building"></i>
+      <h2 class="count">0</h2>
+      <p>Proje</p>
+    </div>
+    <div class="stat-box" data-count="6500">
+      <i class="fas fa-smile"></i>
+      <h2 class="count">0</h2>
+      <p>Mutlu Müşteri</p>
+    </div>
+    <div class="stat-box" data-count="25">
+      <i class="fas fa-calendar-check"></i>
+      <h2 class="count">0</h2>
+      <p>Yıllık Tecrübe</p>
+    </div>
+    <div class="stat-box" data-count="1100">
+      <i class="fas fa-users"></i>
+      <h2 class="count">0</h2>
+      <p>Takım Arkadaşı</p>
+    </div>
+  </div>
+</section>
+
+
+</section>
+<!-- HİZMET TANITIM BLOKLARI BİTİŞ -->
+
+
+<section class="nedenbiz-section">
+  <div class="container">
+    <h2 class="nedenbiz-title">Neden <span>Yüce Devlet?</span></h2>
+    <div class="nedenbiz-grid">
+
+      <div class="nedenbiz-item">
+        <h3>20+ Yıllık Sektör Deneyimi</h3>
+        <p>İnşaat alanında yılların tecrübesi ile kalıcı ve sağlam yapılar inşa ediyoruz.</p>
+      </div>
+
+      <div class="nedenbiz-item">
+
+        <h3>Kalite Odaklılık</h3>
+        <p>Malzeme ve işçilikte yüksek kalite standartlarını benimsiyoruz.</p>
+      </div>
+
+      <div class="nedenbiz-item">
+
+        <h3>Güvenilirlik</h3>
+        <p>Teslimat sürecinden işçilik kalitesine kadar güven esaslı bir anlayışla çalışıyoruz.</p>
+      </div>
+
+      <div class="nedenbiz-item">
+        <h3>7/24 Teknik Destek</h3>
+        <p>Projelerimizde müşterilerimize kesintisiz destek sunuyoruz.</p>
+      </div>
+
+      <div class="nedenbiz-item">
+
+        <h3>Modern ve Yenilikçi Yaklaşım</h3>
+        <p>Akıllı bina sistemleri ve çağdaş çözümlerle geleceğe yatırım yapıyoruz.</p>
+      </div>
+
+      <div class="nedenbiz-item">
+        <h3>Müşteri Memnuniyeti</h3>
+        <p>Her zaman müşteri memnuniyetini ön planda tutarak projelerimizi şekillendiriyoruz.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- İLETİŞİME GEÇMEMİZ İÇİN -->
+
+<div class="subscribe">
+  <p class="subscribe-pretitle">YÜCE DEVLET GRUP</p>
+  <h3 class="subscribe-title">Güncellemelerden haberdar olmak için mail bırakın</h3>
+  <form action="https://formsubmit.co/your@email.com" method="POST" class="subscribe-form">
+    <input type="email" placeholder="E-posta adresiniz" required />
+    <button type="submit">Abone Ol</button>
+  </form>
+</div>
+
+<!-- Footer başlangıç -->
+
+<footer class="footer">
+  <div class="container footer-container">
+
+    <!-- Sol Logo ve Açıklama -->
+    <div class="footer-about">
+     <div class="mobile-logo">
+        <h2 style="font-family: Poppins, sans-serif; color: #0077ff;">YÜCE DEVLET GRUP</h2>
+      </div>
+      <p style="margin-top: 20px;">inşaat sektöründe güven, kalite ve sürdürülebilir projeler sunuyoruz.</p>
+    </div>
+
+    <!-- Menü -->
+    <div class="footer-links">
+      <h4>Hızlı Bağlantılar</h4>
+      <ul>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a href="hizmetler.html">Hizmetler</a></li>
+        <li><a href="projeler.html">Projeler</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+    </div>
+
+    <!-- İletişim -->
+    <div class="footer-contact">
+      <h4>İletişim</h4>
+      <ul>
+        <li>📍 Ankara Karakazan</li>
+        <li>📞 +90 (535) 055 55 43</li>
+          <li>📞 +90 (536) 224 09 81</li>
+        <li>📧 yucedevlet@outlook.com</li>
+      </ul>
+    </div>
+
+    <!-- Sosyal Medya -->
+    <div class="footer-social">
+      <h4>Bizi Takip Et</h4>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/yucedevletinsaat"><img src="./assets/icons/facebook.svg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/yucedevletinsaat"><img src="./assets/icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://www.twitter.com/yucedevletinsaat"><img src="./assets/icons/twitter.svg" alt="LinkedIn"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Yüce Devlet. Tüm Hakları Saklıdır.</p>
+  </div>
+</footer>
+
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

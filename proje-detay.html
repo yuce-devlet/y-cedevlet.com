@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proje Detayı | Yüce Devlet Grup</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="shortcut icon" href="assets/devonlogo.jpg" type="image/x-icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
+
+  <!-- AOS (Animasyon) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+
+  <!-- Ana CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+
+  <div class="detay-banner" id="detayBanner" data-aos="fade-in">
+    <div class="detay-baslik" id="projeBaslik">Proje Adı</div>
+  </div>
+
+  <div class="detay-icerik" data-aos="fade-up">
+    <h2>Proje Özeti</h2>
+    <p id="projeAciklama">Proje açıklaması yükleniyor...</p>
+
+    <div class="ozet-box">
+      <div class="ozet-item">
+        <h4>Lokasyon</h4>
+        <span id="projeLokasyon">-</span>
+      </div>
+      <div class="ozet-item">
+        <h4>Teslim Tarihi</h4>
+        <span id="projeTeslim">-</span>
+      </div>
+      <div class="ozet-item">
+        <h4>Daire Sayısı</h4>
+        <span id="projeDaire">-</span>
+      </div>
+      <div class="ozet-item">
+        <h4>Sosyal Alanlar</h4>
+        <span id="projeSosyal">-</span>
+      </div>
+    </div>
+
+    <!-- Yeni: Öne Çıkan Özellikler -->
+    <div class="features">
+      <div class="feature-box">
+        <i class="fas fa-tree"></i>
+        <h4>Doğa ile İç İçe</h4>
+        <p>Yeşil alanlarla çevrili yaşam.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fas fa-shield-alt"></i>
+        <h4>7/24 Güvenlik</h4>
+        <p>Güvenli ve huzurlu bir ortam.</p>
+      </div>
+      <div class="feature-box">
+        <i class="fas fa-swimmer"></i>
+        <h4>Sosyal Tesisler</h4>
+        <p>Havuz, fitness ve daha fazlası.</p>
+      </div>
+    </div>
+
+    <!-- Yeni: Galeri -->
+    <div class="galeri-grid">
+      <img src="./assets/slide1.jpeg" alt="Proje Fotoğrafı 1" />
+      <img src="./assets/slide1.jpeg" alt="Proje Fotoğrafı 2" />
+      <img src="./assets/slide1.jpeg" alt="Proje Fotoğrafı 3" />
+    </div>
+
+    <!-- Yeni: Harita -->
+    <div class="harita">
+      <iframe src="https://maps.google.com/maps?q=Ankara&t=&z=13&ie=UTF8&iwloc=&output=embed" loading="lazy"></iframe>
+    </div>
+
+    <!-- Geri Dön -->
+    <div class="back-button">
+      <a href="projeler.html"><i class="fas fa-arrow-left"></i> Tüm Projeler</a>
+    </div>
+  </div>
+
+  <!-- Scriptler -->
+  <script src="./js/proje-detay.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

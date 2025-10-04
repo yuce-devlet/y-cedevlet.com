@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hizmetler | Yüce Devlet</title>
+    <link rel="stylesheet" href="./css/style.css">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+       <link rel="shortcut icon" href="assets/devonlogo.jpg" type="image/x-icon">
+</head>
+<body>
+  <div id="loader">
+    <div class="loader-container">
+      <div class="bar bar1"></div>
+      <div class="bar bar2"></div>
+      <div class="bar bar3"></div>
+      <div class="bar bar4"></div>
+      <div class="bar bar5"></div>
+    </div>
+    <p class="loading-text">Yükleniyor...</p>
+  </div>
+     <!-- Arka plan bulanıklığı -->
+  <div id="overlay"></div>
+  <!-- Mobil Menü -->
+  <div id="mobileMenu" class="mobile-menu">
+    <div class="mobile-menu-header">
+      <div class="mobile-logo">
+        <h2 style="font-family: Poppins, sans-serif; color: black;">YÜCE DEVLET</h2>
+        <p class="alt-logo">İnşaat Kuyumculuk A.Ş.</p>
+      </div>
+      <div class="close-btn" id="closeMenu">&times;</div>
+    </div>
+    <br>
+    <hr />
+     <a href="index.html">Anasayfa</a>
+    <a href="hakkimizda.html">Hakkımızda</a>
+    <a href="hizmetler.html">Hizmetler</a>
+    <a href="projeler.html">Projeler</a>
+    <a href="iletisim.html">İletişim</a>
+
+    <div class="infoBtn">
+      <button>İletişime Geç</button>
+    </div>
+
+    <div class="navbarIcons">
+      <a href="https://instagram.com" class="icon"><i class="fab fa-instagram"></i></a>
+<a href="https://facebook.com" class="icon"><i class="fab fa-facebook-f"></i></a>
+<a href="https://linkedin.com" class="icon"><i class="fab fa-linkedin-in"></i></a>
+<a href="https://twitter.com" class="icon"><i class="fab fa-twitter"></i></a>
+
+    </div>
+  </div>
+
+  <!-- Üst Bilgilendirme -->
+ <!-- Üst Bilgilendirme -->
+<div class="ust-bilgilendirme" style="background-color: #041F42; color: white; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center; font-family: Arial, sans-serif; font-size: 14px;">
+  <div style="display: flex; gap: 10px; align-items: center; margin-left:200px;">
+<i class="fas fa-map-marker-alt" style="color: #f15a24; margin-right: 5px;"></i> Ankara Kahramankazan<br>
+<i class="fas fa-phone" style="color: #f15a24; margin-right: 5px;"></i> +90 (535) 055 55 43<br>
+<i class="fas fa-envelope" style="color: #f15a24; margin-right: 5px;"></i> <a href="mailto:info@devoninsaat.com.tr" style="color: white; text-decoration: none;">yucedevlet@outlook.com</a>
+
+  </div>
+  <div style="display: flex; gap: 10px; margin-right: 200px;">
+    <a href="https://www.facebook.com/yucedevletinsaat" style="color: white;"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/yucedevletinsaat" style="color: white;"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/yucedevletinsaat" style="color: white;"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</div>
+<hr style="background-color: #BE995F; height: 1px; box-shadow: none; border: none;">
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <h1>YÜCE DEVLET</h1>
+      <p class="alt-logo">İnşaat Kuyumculuk A.Ş.</p>
+    </div>
+
+    <div class="nav-links desktop-only">
+      <a href="index.html">Anasayfa</a>
+      <a href="hakkimizda.html">Hakkımızda</a>
+      <a href="hizmetler.html">Hizmetler</a>
+      <a href="projeler.html">Projeler</a>
+      <a href="iletisim.html">İletişim</a>
+    </div>
+
+    <div class="menu-icon" id="menuIcon">
+      <span style="font-size: 28px; cursor: pointer;">&#9776;</span>
+    </div>
+  </nav>
+
+  <div class="backImg">
+        <div class="title-block">
+      <h2>Hizmetlerimiz</h2>
+        <div class="line"></div>
+      <p>Yüce Devlet İnşaat olarak kalite sunuyoruz.</p>
+    </div>
+     
+  </div>
+<section class="kurumsal-hizmetler">
+  <div class="services-grid">
+    <article class="service-card" data-id="insaat-yonetimi" tabindex="0">
+      <div class="service-icon">🏗️</div>
+      <h3 class="service-title">İnşaat Yönetimi</h3>
+      <p class="service-desc">Projelerinizi baştan sona titizlikle yönetiyoruz.</p>
+    </article>
+
+    <article class="service-card" data-id="mimari-tasarim" tabindex="0">
+      <div class="service-icon">📐</div>
+      <h3 class="service-title">Mimari Tasarım</h3>
+      <p class="service-desc">Modern ve sürdürülebilir tasarımlar sunuyoruz.</p>
+    </article>
+
+    <article class="service-card" data-id="kentsel-donusum" tabindex="0">
+      <div class="service-icon">🏢</div>
+      <h3 class="service-title">Kentsel Dönüşüm</h3>
+      <p class="service-desc">Yenilikçi dönüşüm projeleri yapıyoruz.</p>
+    </article>
+
+    <article class="service-card" data-id="altyapi-hizmetleri" tabindex="0">
+      <div class="service-icon">🚧</div>
+      <h3 class="service-title">Altyapı Hizmetleri</h3>
+      <p class="service-desc">Yol, kanalizasyon, su ve enerji altyapılarınızı güvenle inşa ediyoruz.</p>
+    </article>
+
+    <article class="service-card" data-id="restorasyon" tabindex="0">
+      <div class="service-icon">🏛️</div>
+      <h3 class="service-title">Restorasyon</h3>
+      <p class="service-desc">Tarihi binaları aslına uygun olarak yeniliyoruz.</p>
+    </article>
+
+    <article class="service-card" data-id="peyzaj-tasarimi" tabindex="0">
+      <div class="service-icon">🌳</div>
+      <h3 class="service-title">Peyzaj Tasarımı</h3>
+      <p class="service-desc">Doğayla uyumlu, estetik bahçe ve peyzaj çözümleri sunuyoruz.</p>
+    </article>
+
+    <article class="service-card" data-id="enerji-verimliligi" tabindex="0">
+      <div class="service-icon">💡</div>
+      <h3 class="service-title">Enerji Verimliliği</h3>
+      <p class="service-desc">Binalarınız için enerji tasarruflu çözümler geliştiriyoruz.</p>
+    </article>
+
+    <article class="service-card" data-id="ic-mimarlik" tabindex="0">
+      <div class="service-icon">🛋️</div>
+      <h3 class="service-title">İç Mimarlık</h3>
+      <p class="service-desc">İç mekanlarınızı modern, işlevsel ve estetik şekilde tasarlıyoruz.</p>
+    </article>
+
+    <article class="service-card" data-id="proje-danismanlik" tabindex="0">
+      <div class="service-icon">📊</div>
+      <h3 class="service-title">Proje Danışmanlık</h3>
+      <p class="service-desc">Projeleriniz için profesyonel danışmanlık hizmeti sağlıyoruz.</p>
+    </article>
+  </div>
+</section>
+
+<div class="genelKapsayici">
+  <!-- Sol Görsel Alanı -->
+ <div class="solKutu">
+  <div class="imgWrapper">
+    <img src="./assets/devonlogo.jpg" alt="Asistan Robot">
+  </div>
+</div>
+
+
+  <!-- Sağ Metin Alanı -->
+  <div class="sagAlan">
+    <h2>DEVON YÜCE DEVLET GRUP</h2>
+
+    <!-- Açılır Kutu 1 -->
+    <div class="acilirKutu">
+      <input type="checkbox" id="ac1">
+      <label class="etiket" for="ac1">
+        <span>Neden Bizi Tercih Etmelisiniz?</span>
+        <span class="okIcon">▼</span>
+      </label>
+      <div class="icerik">
+       Uzman kadro ve yılların deneyimiyle kaliteli hizmet,
+
+Müşteri memnuniyetine odaklı yaklaşım,
+
+Zamanında ve bütçe dostu teslimatlar,
+
+Modern teknoloji ve sürdürülebilir çözümler
+      </div>
+    </div>
+
+    <!-- Açılır Kutu 2 -->
+    <div class="acilirKutu">
+      <input type="checkbox" id="ac2">
+      <label class="etiket" for="ac2">
+        <span>Bizimle İletişime Geçin</span>
+        <span class="okIcon">▼</span>
+      </label>
+      <div class="icerik">
+        Ücretsiz keşif ve danışmanlık,
+
+Proje planlama aşamasında destek,
+
+Teklif ve fiyatlandırma bilgileri için bize ulaşın,
+
+7/24 müşteri destek hattı
+      </div>
+    </div>
+
+    <!-- Açılır Kutu 3 -->
+    <div class="acilirKutu">
+      <input type="checkbox" id="ac3">
+      <label class="etiket" for="ac3">
+        <span> İnşaat projelerinizde hangi mühendislik ve teknik çözümler kullanıyorsunuz?</span>
+        <span class="okIcon">▼</span>
+      </label>
+      <div class="icerik">
+       Projelerimizde son teknoloji yapı malzemeleri, deprem yönetmeliğine uygun güçlendirme teknikleri ve enerji verimliliği sağlayan tasarımlar kullanıyoruz. Ayrıca, BIM (Building Information Modeling) gibi dijital proje yönetimi araçlarıyla süreçleri optimize ediyoruz.
+      </div>
+    </div>
+
+    <a href="iletisim.html"><button class="maviButon">Bilgi Talep Et</button></a>
+    <p class="altYazi">Onur Yüce</p>
+  </div>
+</div>
+
+
+<footer class="footer">
+  <div class="container footer-container">
+
+    <!-- Sol Logo ve Açıklama -->
+    <div class="footer-about">
+     <div class="mobile-logo">
+        <h2 style="font-family: Poppins, sans-serif; color: #0077ff;">YÜCE DEVLET GRUP</h2>
+      </div>
+      <p style="margin-top: 20px;">inşaat sektöründe güven, kalite ve sürdürülebilir projeler sunuyoruz.</p>
+    </div>
+
+    <!-- Menü -->
+    <div class="footer-links">
+      <h4>Hızlı Bağlantılar</h4>
+      <ul>
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="hakkimizda.html">Hakkımızda</a></li>
+        <li><a href="hizmetler.html">Hizmetler</a></li>
+        <li><a href="projeler.html">Projeler</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </ul>
+    </div>
+
+    <!-- İletişim -->
+    <div class="footer-contact">
+      <h4>İletişim</h4>
+      <ul>
+        <li>📍 Ankara Karakazan</li>
+        <li>📞 +90 (535) 055 55 43</li>
+          <li>📞 +90 (536) 224 09 81</li>
+        <li>📧 yucedevlet@outlook.com</li>
+      </ul>
+    </div>
+
+    <!-- Sosyal Medya -->
+    <div class="footer-social">
+      <h4>Bizi Takip Et</h4>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/yucedevletinsaat"><img src="./assets/icons/facebook.svg" alt="Facebook"></a>
+        <a href="https://www.instagram.com/yucedevletinsaat"><img src="./assets/icons/instagram.svg" alt="Instagram"></a>
+        <a href="https://www.twitter.com/yucedevletinsaat"><img src="./assets/icons/twitter.svg" alt="LinkedIn"></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2025 Yüce Devlet. Tüm Hakları Saklıdır.</p>
+  </div>
+</footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

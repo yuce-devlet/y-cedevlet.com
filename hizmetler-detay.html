@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hizmet Detayı | Yüce Devlet</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="shortcut icon" href="assets/devonlogo.jpg" type="image/x-icon">
+</head>
+<body>
+
+<!-- Hero Alanı -->
+<section class="service-hero" id="heroSection">
+  <div class="hero-content">
+    <h1 id="hizmetBaslik" class="fade-in"></h1>
+    <p id="hizmetAciklama" class="fade-in-delay"></p>
+  </div>
+</section>
+
+<!-- İçerik -->
+<section class="service-details">
+  <div class="service-text">
+    <h2>Hizmet Hakkında</h2>
+    <p id="hizmetDetay"></p>
+
+    <ul class="features">
+      <li><i class="fas fa-check-circle"></i> Profesyonel Ekip</li>
+      <li><i class="fas fa-check-circle"></i> Yüksek Kalite</li>
+      <li><i class="fas fa-check-circle"></i> Zamanında Teslim</li>
+    </ul>
+
+    <a href="hizmetler.html" class="btn">← Hizmetlere Dön</a>
+  </div>
+  <div class="service-image">
+    <img id="hizmetResim" src="" alt="Hizmet Görseli">
+  </div>
+</section>
+
+<!-- Neden Biz -->
+<section class="service-benefits">
+  <h2>Neden Bizi Tercih Etmelisiniz?</h2>
+  <div class="benefit-list">
+    <div class="benefit-item">
+      <i class="fas fa-user-tie"></i>
+      <h3>Uzman Kadro</h3>
+      <p>Alanında deneyimli mühendis ve mimar ekibimizle güvenilir hizmet sunuyoruz.</p>
+    </div>
+    <div class="benefit-item">
+      <i class="fas fa-shield-alt"></i>
+      <h3>Güvenlik ve Kalite</h3>
+      <p>Uluslararası standartlara uygun malzeme ve uygulama süreçleriyle çalışıyoruz.</p>
+    </div>
+    <div class="benefit-item">
+      <i class="fas fa-hourglass-half"></i>
+      <h3>Zamanında Teslim</h3>
+      <p>Belirlenen takvime sadık kalarak projelerinizi zamanında teslim ediyoruz.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SSS -->
+<section class="faq-section">
+  <h2>Sıkça Sorulan Sorular</h2>
+  <div class="faq-item">
+    <h3>Projeye ne kadar sürede başlanır?</h3>
+    <p>Keşif ve planlama sonrası genellikle 7-14 gün içinde uygulamaya geçilir.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Danışmanlık hizmeti ücretli mi?</h3>
+    <p>İlk görüşme ücretsizdir. Detaylı hizmet için teklif sunulur.</p>
+  </div>
+  <div class="faq-item">
+    <h3>İş bittikten sonra destek veriyor musunuz?</h3>
+    <p>Evet, proje sonrası bakım ve destek hizmetleri sunuyoruz.</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <h2>Projeniz İçin Hazır Mısınız?</h2>
+  <a href="iletisim.html" class="btn btn-cta">Teklif Alın</a>
+</section>
+
+<script>
+const data = {
+  "insaat-yonetimi": {
+    baslik: "İnşaat Yönetimi",
+    aciklama: "İnşaat projelerinizi profesyonel bakış açımızla baştan sona titizlikle yönetiyoruz.",
+    detay: "Planlama, koordinasyon ve uygulama süreçlerini entegre biçimde yöneterek projelerinizin zamanında, bütçeye uygun ve yüksek kalite standartlarında tamamlanmasını sağlıyoruz. Uzman ekibimiz, projelerin her aşamasında şeffaf ve sürdürülebilir çözümler sunar.",
+    resim: "assets/slide1.png"
+  },
+  "mimari-tasarim": {
+    baslik: "Mimari Tasarım",
+    aciklama: "Estetik ve işlevselliği bir araya getirerek size özel mimari çözümler sunuyoruz.",
+    detay: "Her proje için özgün konseptler geliştiriyor, çağdaş tasarım anlayışıyla estetik kaygıları teknik gereksinimlerle buluşturuyoruz. Fonksiyonel, yenilikçi ve sürdürülebilir yapılar yaratmak için en güncel tasarım trendlerini takip ediyoruz.",
+    resim: "assets/slide1.png"
+  },
+  "kentsel-donusum": {
+    baslik: "Kentsel Dönüşüm",
+    aciklama: "Geleceğin şehirlerini bugünden planlıyor, güvenli yaşam alanları inşa ediyoruz.",
+    detay: "Mevcut yapı stoğunu analiz ederek, yerinde ve çevreye duyarlı çözümlerle dönüşüm projelerini hayata geçiriyoruz. Deprem yönetmeliğine uygun, modern altyapılarla donatılmış yeni yaşam alanları sunuyoruz.",
+    resim: "assets/slide1.png"
+  },
+  "altyapi-hizmetleri": {
+    baslik: "Altyapı Hizmetleri",
+    aciklama: "Kentleşmenin temelini oluşturan altyapı projelerinde uzmanız.",
+    detay: "Yol, su, kanalizasyon, elektrik ve doğalgaz gibi temel altyapı sistemlerinin projelendirilmesi ve uygulanması süreçlerinde güvenilir, sürdürülebilir ve çevre dostu çözümler sunuyoruz.",
+    resim: "assets/slide1.png"
+  },
+  "restorasyon": {
+    baslik: "Restorasyon",
+    aciklama: "Tarihi yapıları aslına uygun şekilde yeniden yaşatıyoruz.",
+    detay: "Kültürel mirasımız olan yapıları koruma prensibiyle, tarihi dokuya zarar vermeden, bilimsel yöntemlerle restore ediyoruz. Malzeme seçimi ve işçilikte titiz davranarak geçmişi geleceğe taşıyoruz.",
+    resim: "assets/slide1.png"
+  },
+  "peyzaj-tasarimi": {
+    baslik: "Peyzaj Tasarımı",
+    aciklama: "Doğayla uyumlu, estetik ve fonksiyonel dış mekanlar tasarlıyoruz.",
+    detay: "Parklar, bahçeler, yürüyüş yolları ve yeşil alanlar gibi tüm açık alanları modern peyzaj mimarisi anlayışıyla planlıyoruz. Estetik görünümün yanı sıra kullanıcı konforu ve çevresel sürdürülebilirliği de gözetiyoruz.",
+    resim: "assets/slide1.png"
+  },
+  "enerji-verimliligi": {
+    baslik: "Enerji Verimliliği",
+    aciklama: "Yapılarınızda enerji tasarrufu sağlayarak sürdürülebilir bir gelecek inşa ediyoruz.",
+    detay: "Binalarda enerji performansını artırmak için yalıtım, aydınlatma ve mekanik sistemlerde verimlilik odaklı çözümler geliştiriyoruz. Hem doğaya hem bütçenize dost bir yaklaşım sunuyoruz.",
+    resim: "assets/slide1.png"
+  },
+  "ic-mimarlik": {
+    baslik: "İç Mimarlık",
+    aciklama: "İç mekanlarınızı işlevselliği ve estetiği ön planda tutarak yeniden tasarlıyoruz.",
+    detay: "Konut, ofis, mağaza ve tüm yaşam alanlarınız için özgün ve kullanıcı odaklı iç tasarımlar oluşturuyoruz. Renk, doku, mobilya ve aydınlatma uyumu ile alanlara karakter kazandırıyoruz.",
+    resim: "assets/slide1.png"
+  },
+  "proje-danismanlik": {
+    baslik: "Proje Danışmanlık",
+    aciklama: "Projelerinizi daha doğru ve verimli yönetmeniz için uzman danışmanlık hizmeti sunuyoruz.",
+    detay: "Teknik, finansal ve idari tüm süreçlerde doğru kararlar almanızı sağlayacak analiz, raporlama ve yönlendirmelerle projelerinizi başarıyla yönetmenize yardımcı oluyoruz.",
+    resim: "assets/slide1.png"
+  },
+  "proje-gelistirme": {
+    baslik: "Proje Geliştirme",
+    aciklama: "Fikirden uygulamaya kadar olan tüm süreçleri yöneterek projelerinizi hayata geçiriyoruz.",
+    detay: "Arazi analizinden fizibiliteye, tasarım sürecinden yatırım planlamasına kadar her aşamada size özel çözümler üretiyoruz. Doğru lokasyon, doğru yatırım ve etkili strateji ile projelerinizi başarıya ulaştırıyoruz.",
+    resim: "assets/slide1.png"
+  },
+  "proje-yonetimi": {
+    baslik: "Proje Yönetimi",
+    aciklama: "Proje süreçlerinizi uzman kontrolüyle etkin ve başarılı şekilde yürütüyoruz.",
+    detay: "Zaman, maliyet, kalite ve risk yönetimi unsurlarını bir arada ele alarak tüm proje yaşam döngüsünü planlıyor, izliyor ve raporluyoruz. Başarıya ulaşmanız için süreci en ince ayrıntısına kadar yönetiyoruz.",
+    resim: "assets/slide1.png"
+  }
+}
+
+  const params = new URLSearchParams(window.location.search);
+  const id = params.get("id");
+
+  if (id && data[id]) {
+    document.getElementById("hizmetBaslik").textContent = data[id].baslik;
+    document.getElementById("hizmetAciklama").textContent = data[id].aciklama;
+    document.getElementById("hizmetDetay").textContent = data[id].detay;
+    document.getElementById("hizmetResim").src = data[id].resim;
+    document.getElementById("heroSection").style.backgroundImage =
+      `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(${data[id].resim})`;
+  } else {
+    document.getElementById("hizmetBaslik").textContent = "Hizmet bulunamadı";
+  }
+</script>
+
+</body>
+</html>
